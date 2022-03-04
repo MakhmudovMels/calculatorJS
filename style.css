@@ -1,6 +1,7 @@
 body {
     background-color: lightgoldenrodyellow;
     user-select: none;
+    
 }
 .container {
     display: grid;
@@ -8,6 +9,8 @@ body {
     grid-gap: 4px;
     background-color: #212121;
     padding: 4px;
+    margin: 0 auto;
+    margin-top: 5%;
     border-radius: 5px;
     max-width: 360px;
     font-family: "Tahoma";
@@ -22,6 +25,11 @@ body {
     font-size: 22px;
     cursor: pointer;
     font-weight: bold;
+    transition: all 0.2s;
+    overflow: hidden;
+}
+.item:hover {
+    opacity: 0.9;
 }
 form {
     max-width: 100%;
